@@ -3,6 +3,7 @@ body {
   text-align: center; /* will center everything inside that DOESN'T HAVE WIDTH SET */
   font-family: "Merriweather", serif; /* browser will grab these fonts in order of specificity and availability */
   /*font-size: 2em*/ /* font size is multiplicative (if using em and %), so this will double any existing font size delcarations */
+  background-color: #2e2d2d;
 }
 
 h1 {
@@ -10,36 +11,37 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem; /* 100% = 16px = 1em; em = phonetic "M" */
   /* rem vs em: rem ignores parent size conditions, will not multiply */
-  color: #66BFBF;
+  color: #c4dcff;
   line-height: 1.2
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #a3c8ff;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  /*color: #ffab2e;*/
+  color: #8cb1ea;
 }
 
 a {
-  color: #11999E
+  color: lime;
 }
 
 p {
-  color: #40514E;
+  color: #dedddd;
 }
 
 .programmer-h2 {
   font-weight: normal;
 }
 
-.pro {
+/*.pro {
   text-decoration: underline;
-}
+}*/
 
 .profile-img {
   height: 250px;
@@ -52,45 +54,48 @@ p {
   line-height: 2;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
+.top-star {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  top: 70px;
+  width: 80px;
+}
+
+.bottom-star {
+  position: absolute;
+  right: 300px;
+  bottom: 250px;
+  width: 80px;
 }
 
 .top-container {
-  background-color: #eaf6f6;
+  background-color: #161719;
   position: relative;
   padding-top: 90px;
 }
 
 .middle-container {
   padding-top: 55px;
+  background-color: #2e2d2d;
 }
 
 .bottom-container {
   margin-top: 50px;
   padding: 10px;
   padding-top: 30px;
-  background-color: #66BFBF;
+  background-color: #a5cbff;
 }
 
 .footer-link {
   padding-left: 30px;
   padding-right: 30px;
   font-family: 'Montserrat', sans-serif;
-  color: #0d7478;
+  color: #276cd3;
   text-decoration: none;
 }
 
 .copyright-paragraph {
-  color: #EAF6F6
+  color: #161719
 }
 
 .dotted-line {
@@ -147,4 +152,29 @@ p {
   margin-left: auto;
   margin-right: auto;
   line-height: 2;
+}
+
+.contact-button {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #2E2D2D;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 18px;
+   background-color: #8CB1EA;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-button:hover {
+   background: #C1D0E6;
+   border: solid #FFFFFF 0;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
 }
