@@ -8,7 +8,7 @@ body {
 
 h1 {
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Delius Swash Caps', cursive;
   font-size: 5.625rem; /* 100% = 16px = 1em; em = phonetic "M" */
   /* rem vs em: rem ignores parent size conditions, will not multiply */
   color: #c4dcff;
@@ -27,28 +27,45 @@ h3 {
   color: #8cb1ea;
 }
 
-a {
-  color: lime;
+p {
+  color: #eeeeee;
 }
 
-p {
-  color: #dedddd;
+.menubar-container {
+  height: 35px;
+  background-color: #a5cbff;
+  text-align: left;
+  padding: 20px;
+}
+
+.home-button {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  color: #161719;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.github-button {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  color: #161719;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .programmer-h2 {
   font-weight: normal;
 }
 
-/*.pro {
-  text-decoration: underline;
-}*/
-
 .profile-img {
   height: 250px;
 }
 
 .aboutme-paragraph {
-  width: 30%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   line-height: 2;
@@ -57,24 +74,24 @@ p {
 .top-star {
   position: absolute;
   left: 300px;
-  top: 70px;
+  top: 40px;
   width: 80px;
 }
 
 .bottom-star {
   position: absolute;
-  right: 300px;
+  right: 285px;
   bottom: 250px;
   width: 80px;
 }
 
 .top-container {
-  background-color: #161719;
+  background-color: #131313;
   position: relative;
   padding-top: 90px;
 }
 
-.middle-container {
+.middle1-container {
   padding-top: 55px;
   background-color: #2e2d2d;
 }
@@ -98,6 +115,10 @@ p {
   color: #161719
 }
 
+.credit-paragraph {
+  color: #161719
+}
+
 .dotted-line {
   border-style: none;
   border-top-style: dotted;
@@ -108,19 +129,19 @@ p {
 }
 
 .java-img {
-  width: 28%;
+  width: 180px;
   float: left;
   margin-right: 30px;
 }
 
 .webdev-img {
-  width: 28%;
+  width: 180px;
   float: right;
   margin-left: 30px;
 }
 
 .ms-img {
-  width: 28%;
+  width: 170px;
   float: left;
   margin-right: 30px;
 }
@@ -139,8 +160,34 @@ p {
 }
 */
 
+.middle2-container {
+
+}
+
+.school-title {
+  display: inline-block;
+  width: 30%;
+}
+
+.java-project-title {
+  display: inline-block;
+  width: 30%;
+}
+
+.school-description {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+.java-project-description {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 90px auto 90px auto;
   text-align: left;
   line-height: 2;
@@ -155,26 +202,28 @@ p {
 }
 
 .contact-button {
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   color: #2E2D2D;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 20px;
-   font-weight: 500;
-   padding: 18px;
-   background-color: #8CB1EA;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  margin: 30px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #2E2D2D;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 18px;
+  background-color: #8CB1EA;
+  transition: background-color .15s;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .contact-button:hover {
-   background: #C1D0E6;
-   border: solid #FFFFFF 0;
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   text-decoration: none;
+  background: #C1D0E6;
+  border: solid #FFFFFF 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
 }
