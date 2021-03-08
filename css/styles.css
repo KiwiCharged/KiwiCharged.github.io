@@ -31,6 +31,22 @@ p {
   color: #eeeeee;
 }
 
+table {
+  margin: auto;
+  width: 60%;
+}
+
+tr {
+  width: 25%;
+}
+
+td {
+  vertical-align: top;
+  width: 25%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .menubar-container {
   height: 35px;
   background-color: #a5cbff;
@@ -176,13 +192,13 @@ p {
 
 .school-description {
   display: inline-block;
-  width: 30%;
+  text-align: center;
   line-height: 2;
 }
 
 .java-project-description {
   display: inline-block;
-  width: 30%;
+  text-align: center;
   line-height: 2;
 }
 
