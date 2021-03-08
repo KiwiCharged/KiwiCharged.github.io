@@ -1,104 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">  <!-- Meta elements give extra metadata; here, all text is encoded via UTF-8 -->
-    <title>💙Justin's Bangin' Site💙</title>
-
-    <style>
-
-      body {
-        background-color: #f4f9f9;
-      }
-
-      hr {
-        border-style: none;
-        border-top-style: dotted;
-        border-color: gray;
-        border-width: 6px;
-        width: 10%;
-      }
-
-
-    </style>
-
+    <meta charset="utf-8">
+    <title>Justin Karp</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="justinface.png" alt="picture of Justin Karp"></td>
-        <td><h1>Justin Karp</h1>
-        <p><em>Founder and CEO of <strong><a href="https://www.linkedin.com/in/justin-karp-75287818b/">me, myself and I</a></strong>.</em></p>
-        <p>
-          I am a student at Suffolk County Community College, currently pursuing a
-          degree in Computer Science. I hope to graduate in fall 2021 with an A.S. in CS.
-          I have experience in creating Java applications.
-          </p></td>
-      </tr>
-    </table>
-    <hr>
 
-    <h3>Education</h3>
-    <p>I have attended the following schools through my academic career: <a href="https://www.commack.k12.ny.us/commackhighschool_home.aspx">Commack High School</a>
-    and <a href="https://sunysuffolk.edu/">Suffolk County Community College</a>.</p>
-    <ul>
-      <li>Commack High School; HS Diploma w/ IB Diploma</li>
-      <li>Suffolk County Community College; A.S. in Computer Science (in progress)</li>
-    </ul>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Justin</h1>
+      <h2 class="programmer-h2">a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
 
-    <hr>
+<!-- Below is modified code from Angela Yu from Udemy -->
+    <div class="middle-container">
 
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-<!-- nothing here now -->
-      </tbody>
-      <tfoot>
-<!-- nothing here now -->
-      </tfoot>
-      <tr>
-        <td>2016 - 2017</td>
-        <td>Hardlines Associate at Target</td>
-      </tr>
-      <tr>
-        <td>2017 - 2020</td>
-        <td>Product Advisor at Microsoft Retail Stores</td>
-      </tr>
-      <tr>
-        <td>2020 - now</td>
-        <td>Customer Success Trainer at Microsoft</td>
-      </tr>
-    </table>
+      <div class="profile">
+        <img class="profile-img" src="https://snz04pap001files.storage.live.com/y4mdHOyAGfckeblNBI_LatY8wWCyuSOL6HMpT9S9kT1XIfUiz3vVc6jXyJDqGWWsHJigHf2c4MA0gbypIMCsLd3a5CxKOYtw4pHuR3aJCSt97XVT3xNGxO4K85RUNbEd4Nxce_Z_uF_sSLICTMv55-HGHnEW9pvDmmSWeJYAvAwv-PunX2pD3bYqR7IISyFjB8C?width=1721&height=1572&cropmode=none" alt="profile-img">
+        <h2>Hello.</h2>
+        <p class="aboutme-paragraph">I'm a Computer Science student with experience in Java programming and Web Development. I love everything about technology.</p>
+      </div>
 
-    <hr>
+      <hr class="dotted-line">
 
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Java Programming</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Microsoft Office Suite</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Autocross Racing</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Web Development</td>
-        <td>⭐⭐</td>
-      </tr>
-    </table>
-    <hr size="0" noshade>
-    <a href="hobbies.html">Hobbies and Interests</a>
-    <br>
-    <a href="contactinfo.html">Contact Information</a>
+      <div class="skills">
+
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="java-img" src="https://www.flaticon.com/svg/vstatic/svg/2920/2920277.svg?token=exp=1615150056~hmac=a201cbc26e885067079e438696292694" alt="coding-img">
+          <h3>Java and JavaFX</h3>
+          <p class="java-skill-description">I've developed applications with database management using the Java platform. I've also utilized JavaFX for front-end UI development.</p>
+        </div>
+
+        <div class="skill-row">
+          <img class="webdev-img" src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1615149504~hmac=80be28ecb403a60e0b5e9f25f6fddec0" alt="computer-img">
+          <h3>Web Development</h3>
+          <p class="webdev-skill-description">I have like... a little bit of experience creating websites using HTML and CSS, like the one you're on right now!</p>
+        </div>
+
+        <div class="skill-row">
+          <img class="ms-img" src="https://www.flaticon.com/svg/vstatic/svg/732/732221.svg?token=exp=1615150115~hmac=937fa44b0f8bbadb783a4d2eb6d6b1ac" alt="microsoft-logo-img">
+          <h3>Microsoft 365 Ecosystem</h3>
+          <p class="ms-skill-description">In-depth experience and use of the entire Microsoft 365 ecosystem, from the Office Suite to cloud services such as Power Platform and SharePoint/OneDrive.</p>
+        </div>
+      </div>
+
+      <hr class="dotted-line">
+
+      <div class="contact-me">
+
+        <h2>Want to talk?</h2>
+        <h3>Let's get that conversation going.</h3>
+        <p class="getInTouch-paragraph">I'm available for freelance work. Got any coding ideas? <br>Cool projects? I'd love to work together!</p>
+        <a class="btn" href="mailto:justinevankarp@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/justin-karp-75287818b/">LinkedIn</a>
+<!--  <a class="footer-link" href="https://twitter.com/">Twitter</a> -->
+      <a class="footer-link" href="https://kiwicharged.github.io">Website</a>
+      <p class="copyright-paragraph">© 2021 Justin Karp.</p>
+    </div>
+<!-- end of Angela Yu's code -->
+
   </body>
 </html>

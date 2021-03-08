@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center; /* will center everything inside that DOESN'T HAVE WIDTH SET */
+  font-family: "Merriweather", serif; /* browser will grab these fonts in order of specificity and availability */
+  /*font-size: 2em*/ /* font size is multiplicative (if using em and %), so this will double any existing font size delcarations */
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /* 100% = 16px = 1em; em = phonetic "M" */
+  /* rem vs em: rem ignores parent size conditions, will not multiply */
+  color: #66BFBF;
+  line-height: 1.2
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E
+}
+
+p {
+  color: #40514E;
+}
+
+.programmer-h2 {
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-img {
+  height: 250px;
+}
+
+.aboutme-paragraph {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 90px;
+}
+
+.middle-container {
+  padding-top: 55px;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  padding: 10px;
+  padding-top: 30px;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0d7478;
+  text-decoration: none;
+}
+
+.copyright-paragraph {
+  color: #EAF6F6
+}
+
+.dotted-line {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d4d3d3;
+  border-width: 6px;
+  width: 10%;
+  margin: 100px auto 100px auto;
+}
+
+.java-img {
+  width: 28%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev-img {
+  width: 28%;
+  float: right;
+  margin-left: 30px;
+}
+
+.ms-img {
+  width: 28%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*
+.java-skill-description {
+  clear: left;
+}
+
+.webdev-skill-description {
+  clear: right;
+}
+
+.ms-skill-description {
+  clear: left;
+}
+*/
+
+.skill-row {
+  width: 50%;
+  margin: 90px auto 90px auto;
+  text-align: left;
+  line-height: 2;
+  height: 160px;
+}
+
+.getInTouch-paragraph {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
